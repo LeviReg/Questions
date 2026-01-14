@@ -1,4 +1,7 @@
 //name variable and logging it
+let firstName = "Levi";
+
+console.log("My name is" + firstName);
 
 //adding two variables
 
