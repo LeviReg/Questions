@@ -1,13 +1,34 @@
 //name variable and logging it
 let firstName = "Levi";
+let secondName = "Regan";
 
-console.log("My name is" + firstName);
+console.log("My name is " + firstName);
 
 //adding two variables
 
+let number1 = 5;
+let number2 = 7;
+
+let sum = number1 + number2;
+
+console.log("The sum of " + number1 + " and " + number2 + " is equal to " + sum);
+
 //string concatination
+console.log("My full name is " + firstName, secondName)
 
 //even or odd number check
+
+//let number3 = 17;
+
+function evenodd(number){
+    if (number % 2 == 0) {
+        return "This number is even"
+    } else{
+        return "This number is odd"
+    }
+}
+
+console.log(evenodd(18))
 
 //array of fruits
 
